@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(45deg, #240165 , #05001c);
+    font-family: "Tajawal", serif;
+
+}
+#cityname{
+    font-size: 170px;
+    color: white;
+    font-weight: 400;
+}
+#date{
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+.card{
+    width: 12%;
+    height: 95%;
+    background-color: white;
+    font-size: 20px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0,30);
+}
+#shape{
+    height: 220px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.header{
+
+    background: linear-gradient(45deg, #5709ee, #7a37bf);
+    text-align: center;
+    color: white;
+}
+.header h1{
+    font-weight: 400;
+    padding: 5px;
+    
+
+}
+.center{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bodyy{
+    height: 70%;
+}
+.time{
+    font-size: 70px;
+    
+}
+#koko{
+    display: flex;
+    justify-content: space-evenly;
+}
+#city{
+    margin-top: 100px;
+}
+#city select{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Tajawal", serif;
+    background: none;
+    color: whitesmoke;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    padding: 5px;
+    font-weight: 800;
+}
+#city option{
+    color: black;
+}
